@@ -14,10 +14,30 @@
         </aside>
         <div class="col-sm-8">
             <ul class="nav nav-tabs nav-justified mb-3">
-                <li class="nav-item"><a href="#" class="nav-link">TimeLine</a></li>
+                <li class="nav-item"><a href="{{ route('users.show', ['id' => $user->id]) }}" class="nav-link {{ Request::is('users/' . $user->id) ? 'active' : '' }}">TimeLine <span class="badge badge-secondary">{{ $count_tasks }}</span></a></li>
                 <li class="nav-item"><a href="#" class="nav-link">Followings</a></li>
                 <li class="nav-item"><a href="#" class="nav-link">Followers</a></li>
             </ul>
+            @if (Auth::id() == $user->id)
+                {!! Form::open(['route' => 'tasks.store']) !!}
+                    <div class="form-group">
+                        <table class="table table-striped table-bordered table-sm">
+                            <tr>
+                                <th>ステータス</th>
+                                <th>タスク</th>
+                            </tr>
+                            <tr>
+                                <td>{!! Form::textarea('status', old('status'), ['class' => 'form-control', 'rows' => '1']) !!}</td>
+                                <td>{!! Form::textarea('content', old('content'), ['class' => 'form-control', 'rows' => '1']) !!}</td>
+                            </tr>
+                        </table>
+                        {!! Form::submit('Post', ['class' => 'btn btn-primary btn-block']) !!}
+                    </div>
+                {!! Form::close() !!}
+            @endif
+            @if (count($tasks) > 0)
+                @include('tasks.index', ['tasks' => $tasks])
+            @endif
         </div>
     </div>
 @endsection

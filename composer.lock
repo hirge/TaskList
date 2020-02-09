@@ -1,3 +1,26 @@
+Skip to content
+Search or jump to…
+
+Pull requests
+Issues
+Marketplace
+Explore
+ 
+@hirge 
+hirge
+/
+TaskList
+1
+00
+ Code Issues 0 Pull requests 1 Actions Projects 0 Wiki Security Insights Settings
+TaskList/composer.lock
+@hirge hirge user pages
+e07528b 2 hours ago
+We found a potential security vulnerability in one of your dependencies.
+Only the owner of this repository can see this message.
+
+4710 lines (4710 sloc)  166 KB
+  
 {
     "_readme": [
         "This file locks the dependencies of your project to a known state",
@@ -4708,3 +4731,15 @@
     },
     "platform-dev": []
 }
+© 2020 GitHub, Inc.
+Terms
+Privacy
+Security
+Status
+Help
+Contact GitHub
+Pricing
+API
+Training
+Blog
+About
