@@ -1,26 +1,3 @@
-Skip to content
-Search or jump to…
-
-Pull requests
-Issues
-Marketplace
-Explore
- 
-@hirge 
-hirge
-/
-TaskList
-1
-00
- Code Issues 0 Pull requests 1 Actions Projects 0 Wiki Security Insights Settings
-TaskList/composer.lock
-@hirge hirge user pages
-e07528b 2 hours ago
-We found a potential security vulnerability in one of your dependencies.
-Only the owner of this repository can see this message.
-
-4710 lines (4710 sloc)  166 KB
-  
 {
     "_readme": [
         "This file locks the dependencies of your project to a known state",
@@ -752,16 +729,16 @@ Only the owner of this repository can see this message.
         },
         {
             "name": "league/flysystem",
-            "version": "1.0.63",
+            "version": "1.0.64",
             "source": {
                 "type": "git",
                 "url": "https://github.com/thephpleague/flysystem.git",
-                "reference": "8132daec326565036bc8e8d1876f77ec183a7bd6"
+                "reference": "d13c43dbd4b791f815215959105a008515d1a2e0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/thephpleague/flysystem/zipball/8132daec326565036bc8e8d1876f77ec183a7bd6",
-                "reference": "8132daec326565036bc8e8d1876f77ec183a7bd6",
+                "url": "https://api.github.com/repos/thephpleague/flysystem/zipball/d13c43dbd4b791f815215959105a008515d1a2e0",
+                "reference": "d13c43dbd4b791f815215959105a008515d1a2e0",
                 "shasum": ""
             },
             "require": {
@@ -773,7 +750,7 @@ Only the owner of this repository can see this message.
             },
             "require-dev": {
                 "phpspec/phpspec": "^3.4",
-                "phpunit/phpunit": "^5.7.10"
+                "phpunit/phpunit": "^5.7.26"
             },
             "suggest": {
                 "ext-fileinfo": "Required for MimeType",
@@ -832,7 +809,7 @@ Only the owner of this repository can see this message.
                 "sftp",
                 "storage"
             ],
-            "time": "2020-01-04T16:30:31+00:00"
+            "time": "2020-02-05T18:14:17+00:00"
         },
         {
             "name": "monolog/monolog",
@@ -4731,15 +4708,3 @@ Only the owner of this repository can see this message.
     },
     "platform-dev": []
 }
-© 2020 GitHub, Inc.
-Terms
-Privacy
-Security
-Status
-Help
-Contact GitHub
-Pricing
-API
-Training
-Blog
-About
